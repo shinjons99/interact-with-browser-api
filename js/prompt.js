@@ -19,4 +19,10 @@ const getInfo = ()=>{
     // confirm
     const name = prompt('Tell Me your Name')
     console.log(name);
+    if(name === null){
+        alert('Naam na dile kaam nai! Ja fut')
+    }
+    else{
+        console.log('Welcome to this');
+    }
 }
